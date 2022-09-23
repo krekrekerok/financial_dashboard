@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Weekly Sumup</title>
+</head>
+<body>
+    <div class="container">
+
+        <nav class="nav">
+            <div class="nav__logo">
+              <a class="nav__logo-link">
+                <img src="images/logo.svg" alt="LOGO">
+              </a>
+            </div>
+            <ul class="nav__menu">
+              <li class="nav__menu-item">
+                <img src="images/overview.svg" alt="overview">
+                <a class="nav__menu-item-link nav__menu-item-link--active">Overview</a>
+              </li>
+              <li class="nav__menu-item">
+                <img src="images/transactions.svg" alt="transactions">
+                <a class="nav__menu-item-link">Transactions</a>
+              </li>
+              <li class="nav__menu-item">
+                <img src="images/nav_cards.svg" alt="cards">
+                <a class="nav__menu-item-link">Cards</a>
+              </li>
+              <li class="nav__menu-item">
+                <img src="images/nav_invoices.svg" alt="invoices">
+                <a class="nav__menu-item-link">Invoices</a>
+              </li>
+              <li class="nav__menu-item">
+                <img src="images/goals.svg" alt="goals">
+                <a class="nav__menu-item-link">Goals</a>
+              </li>
+              <li class="nav__menu-item">
+                <img src="images/nav_settings.svg" alt="settings">
+                <a class="nav__menu-item-link">Settings</a>
+              </li>
+            </ul>
+            <div class="nav__footer">
+                <button class="nav__footer-button">
+                    Upgrate to premium
+                    <img src="images/arrow.svg" alt="" srcset="">
+                </button>
+                <p class="nav__footer-text">Give your money awesome space in cloud</p>
+                <img src="images/cloud-space.svg" alt="Cloud space" class="nav__footer-logo">
+            </div>
+        </nav>
+
+        <div class="main">
+            <header class="main__header">
+                <div class="header__left">
+                  <h1 class="header__left-text">Weekly sumup</h1>
+                  <p class="header__left-summary">Get summary of your weekly online transactions here.</p>
+                </div>
+                <div class="header__right">
+                  <ul class="header__right-list">
+                    <li class="list__item">
+                      <img src="images/mail.svg" alt="mail image" id="header__right-message">
+                    </li>
+                    <li class="list__item">
+                      <img src="images/bell.svg" alt="bell image" id="header__right-bell">
+                    </li>
+                    <li class="list__item">
+                      <img src="images/acc_avatar.svg" alt="avatar image" id="header__right-avatar">
+                    </li>
+                    <li class="list__item">
+                      <p>Andrew</p>
+                      <p>Admin account</p>
+                    </li>
+                  </ul>
+                </div>
+            </header>
+
+            <section class="main__info">
+              <article class="card__container">
+                <h2>Cards</h2>
+                <div class="container__grid">
+                  <div class="card">
+                      <div class="card__front card__part">
+                        <img class="card__front-square card__square" src="images/card-logo.svg" alt="credit logo">
+                        
+                        <p class="card_number">5789 **** **** 2847</p>
+                        <div class="card__space-holder">
+                          <span class="card__label">Card holder</span>
+                          <p class="card__info">Mike Smith</p>
+                        </div>
+                        <div class="card__space-ed">
+                          <span class="card__label">Expire date</span>
+                                <p class="card__info">06/21</p>
+                        </div>
+                      </div>
+                      <div class="card__back card__part">
+                        <div class="card__black-line"></div>
+                        <div class="card__back-content">
+                          <div class="card__secret">
+                            <p class="card__secret--last">420</p>
+                          </div>
+                          <img class="card__back-square card__square" src="images/card-logo.svg">
+                        </div>
+                      </div>
+                  </div>
+                  <div class="card__right-info">
+                      <div class="card__current">
+                        <p class="balance">$2850.75</p>
+                        <p class="card__info-text">Current balance</p>
+                      </div>
+                      <div class="card__income">
+                        <p class="income">$1500.50</p>
+                        <p class="card__info-text">Income</p>
+                      </div>
+                      <div class="card__outcome">
+                        <p class="outcome">$350.60</p>
+                        <p class="card__info-text">Outcome</p>
+                      </div>
+                      <div class="deactive">
+                        <input class="apple-switch" type="checkbox">
+                        <p class="card__info-text">Disactivate card</p>
+                      </div>
+                  </div>
+                  <div class="card__limit">
+                    <div class="limit__bar">
+                      <span class="limit__score"></span>
+                    </div>
+                    <div class="card__limit-text">
+                      <p>Weekly payment limit</p>
+                      <p>$350.60 / $4000</p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="history__container">
+                <h2>Transaction history</h2>
+              </article>
+            </section>
+
+            <section class="main__goals">
+              <h2>goals</h2>
+            </section>
+
+            <section class="main__outcomes">
+              <h2>outcomes</h2>
+            </section>
+            
+            <section class="main__transactions">
+              <h2>transactions</h2>
+            </section>
+        </div>
+    </div>
+
+</body>
+</html>
