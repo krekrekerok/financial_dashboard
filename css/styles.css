@@ -6,9 +6,9 @@
     font-family: 'Lato', sans-serif
 }
 
-body:hover{
+/* body:hover{
     transition: 0.3s ease-in-out;
-}
+} */
 
 body{
     background-color: #e5e5e5;
@@ -38,8 +38,9 @@ ul{
 .nav__logo{
     height: 13%;
     padding: 0 15px;
+    transition: 0.3s ease-in-out;
 }
-.nav__logo img:hover{
+.nav__logo:hover{
     cursor: pointer;
     transform: scale(1.1);
 }
@@ -51,8 +52,7 @@ ul{
     flex-direction: column;
     justify-content: space-around;
     font-size: 14px;
-    padding: 0 10px;
-    
+    padding: 0 10px;  
 }
 
 .nav__menu-item {
@@ -60,6 +60,8 @@ ul{
     height: 13%;
     padding: 5px 15px;
     color: #C7C7C7;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
 }
 
 .nav__menu-item:hover {
@@ -282,9 +284,9 @@ header{
     display: inline-block;
     width: 320px;
     height: 190px;
-    background-image: url('/images/card-clouds.svg'), linear-gradient(to right bottom, #197BBD, #3391D0);
+    background-image: url('../images/card-clouds.svg'), linear-gradient(to right bottom, #197BBD, #3391D0);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
     border-radius: 20px;
     
