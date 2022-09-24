@@ -508,3 +508,22 @@ input.apple-switch:checked:after {
     box-shadow: -2px 4px 3px rgba(0,0,0,0.05);
 }
 
+.history__table{
+    width: 86%;
+    height: 75%;
+    margin:20px auto;
+    font-size: 14px;
+}
+
+.table__row-name{
+    color: #aeaeae;
+    text-align: left;
+}
+
+.table__row-name th:last-child{
+    text-align: right;
+}
+
+.amount__data{
+    text-align: right;
+}
