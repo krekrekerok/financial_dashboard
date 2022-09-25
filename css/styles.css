@@ -511,19 +511,92 @@ input.apple-switch:checked:after {
 .history__table{
     width: 86%;
     height: 75%;
-    margin:20px auto;
+    margin: 20px auto;
     font-size: 14px;
+    border-collapse: collapse;
+}
+
+tr{
+    border-bottom: 1px solid #ECECEC;
+}
+
+.history__table img{
+    width: 20px;
+    height: 20px;
+    margin-right: 3%;
 }
 
 .table__row-name{
     color: #aeaeae;
     text-align: left;
+    border: none;
 }
 
 .table__row-name th:last-child{
     text-align: right;
 }
 
+.reciever__data{
+    display: flex;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.type__data, .date__data{
+    color: #C7C7C7;
+}
+
 .amount__data{
+    font-weight: 600;
     text-align: right;
+}
+
+.main__goals, .main__outcomes, .main__transactions{
+    padding: 20px 5px 0 40px;
+    margin-right: 15px;
+    /* font-size: 20px;
+    letter-spacing: 1px; */
+}
+
+
+
+.main__goals{
+    /* background-color: #197BBD; */
+}
+
+.main__goals-header{
+    display: flex;
+    align-items: end;
+    margin-bottom:5% ;
+}
+
+.goals__content{
+    display: flex;
+    justify-content: space-between;
+    height: 60%;
+}
+
+.content_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 13px 25px;
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+}
+
+.item-amount{
+    font-size: 25px;
+    color: #696969;
+    font-weight: 600;
+}
+
+.item-date{
+    color: #aeaeae;
+}
+
+.item-text{
+    font-size: 20px;
+    color: #404040
 }
