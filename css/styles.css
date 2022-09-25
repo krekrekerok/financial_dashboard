@@ -573,7 +573,7 @@ tr{
 .goals__content{
     display: flex;
     justify-content: space-between;
-    height: 60%;
+    height: 70%;
 }
 
 .content_items{
@@ -599,4 +599,81 @@ tr{
 .item-text{
     font-size: 20px;
     color: #404040
+}
+
+.statistics__row{
+    margin-top: 3%;
+    display: flex;
+    align-items: end;
+}
+
+.statistics__row img{
+    margin: 25%;
+}
+
+.statistics__row p{
+    margin: auto 5%;
+    font-size: 25px;
+    color: #696969;
+    font-weight: 600;
+}
+
+.img-bcg{
+    width: 46px;
+    height: 43px;
+    border-radius: 5px;
+}
+
+#shopping{
+    background-color: #FFEADA;
+}
+
+#electronics{
+    background-color: #DDF9E4;
+}
+
+#travels{
+    background-color: #E4F0FF;
+}
+
+
+
+.statistics-part{
+    width: 70%;
+    margin-left: 3%;
+
+}
+.statistics-part p{
+    color: #aeaeae;
+    font-size: 14px;
+}
+
+.statistics-bar{
+    margin: 2% 0;
+    background-color: #f1f1f1;
+    height: 10px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bar-score{
+    display: block;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+}
+
+#shopping-persent{
+    width: 51%;
+    background-color: #FCAE73;
+}
+
+#electronics-persent{
+    background-color: #209D43;
+    width: 21%;
+}
+
+#travels-persent{
+    background-color: #70A6E8;
+    width: 74%;
 }
