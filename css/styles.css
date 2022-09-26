@@ -106,13 +106,13 @@ ul{
     padding: 14px 15px;
     border-radius: 14px;
     border: none;
+    font-weight: 600;
+    transition: .6s ;
 }
 
 .nav__footer-button:hover{
-    color: #FFC145;
-    background-color:  #000000;
+    background-color:  #b07c14;
     cursor: pointer;
-    transform: scale(0.9);
 }
 
 .main__header{
@@ -551,17 +551,16 @@ tr{
     text-align: right;
 }
 
-.main__goals, .main__outcomes, .main__transactions{
+.main__goals, .main__outcomes{
     padding: 20px 5px 0 40px;
     margin-right: 15px;
-    /* font-size: 20px;
-    letter-spacing: 1px; */
 }
 
 
 
-.main__goals{
-    /* background-color: #197BBD; */
+.main__goals h2, .main__outcomes h2, .main__transactions h2{
+    font-size: 20px;
+    letter-spacing: 1px;
 }
 
 .main__goals-header{
@@ -676,4 +675,156 @@ tr{
 #travels-persent{
     background-color: #70A6E8;
     width: 74%;
+}
+
+.main__transactions{
+    padding: 0 5px 0 25px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    height: 85%;
+}
+
+.main__transactions-container{
+    padding: 13px;
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+}
+
+.transactions__down-part{
+    display: flex;
+    justify-content: space-between;
+}
+.transactions__down-part input{
+    width: 50%;
+    font-size: 20px;
+    background-image: url('../images/dollar-sign.svg');
+    background-position: 95% 50%; 
+    background-repeat: no-repeat;
+    border: 1px solid #197BBD;
+    border-radius: 7px;
+    padding: 4px 10px;
+    margin-left: 3%;
+}
+
+.transactions__down-part button{
+    width: auto;
+    padding: 10px 14px;
+    background-color: #FFC145;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .4s ease-in-out;
+}
+
+.transactions__down-part button:hover{
+    background-color: #b07c14;
+}
+.avatar__list{
+    display: flex;
+    margin: 3% 0;
+    align-items: end;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.avatar__item{
+    margin-left: 3%;
+    text-align: center;
+}
+
+.add-button{
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+
+.add-button:hover{
+    transform: scale(1.1);
+}
+
+.new__loan-container{
+    background-color: #ED654C;
+    background-image: url('../images/loan-clouds.svg');
+    padding: 10px 15px;
+    width: 27%;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+}
+
+.new__loan-container img{
+    width: 15px;
+    color: white;
+    height: 10px;
+}
+
+
+@media screen and (max-width: 1400px) {
+    body{
+        background-color: #fff;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    body{
+        background-color: #fff;
+    }
+    .container{
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+    .nav__menu {
+        padding: 0;
+    }
+
+    .goals__content{
+        height: 65%;
+    }
+    
+    .content_items{
+        padding: 10px 15px;
+        width: 31%;
+    }
+    
+    .main__transactions{
+        height: 81%;
+    }
+    .transactions__down-part input{
+        width: 45%;
+        font-size: 15px;
+        padding: 4px 10px;
+        margin-left: 3%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    body{
+        background-color: #fff;
+    }
+    .container{
+        width: 100vw;
+        border-radius: 0;
+        margin: 0;
+    }
+    .nav__menu {
+        padding: 0;
+    }
+    
+    .nav__menu-item-link {
+        margin-left: 10px;
+    }
+    
+    .transactions__down-part input{
+        width: 45%;
+        font-size: 15px;
+        padding: 4px 10px;
+        margin-left: 3%;
+    }
 }
